@@ -1,0 +1,31 @@
+baseURL = 'https://satvikbhatnagar.com/'
+languageCode = 'en-us'
+title = "Satvik's site"
+theme = 'hugo.386'
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
+    
+  [[menu.main]]
+    identifier = "certifications"
+    name = "Certifications"
+    url = "/certifications/"
+    weight = 30
+    
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
