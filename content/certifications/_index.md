@@ -13,4 +13,9 @@ _January 2022 – April 2022_
 
 Comprehensive Data Analytics course focusing on Python and data analysis.
 
-![Data Analytics with Python Certificate](static/certifications/Data\ Analytics\ with\ Python.jpeg)
+{{< figure src="/certifications/Data_Analytics_with_Python.jpeg"
+           alt="Data Analytics with Python Certificate"
+           width="500px"
+           link="/certifications/Data_Analytics_with_Python.jpeg"
+           target="_blank"
+           rel="noopener noreferrer" >}}
